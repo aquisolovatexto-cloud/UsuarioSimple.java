@@ -24,3 +24,7 @@ public class UsuarioSimple {
         sc.close();
     }
 }
+
+
+
+Prueba de que es posible editar
