@@ -1,0 +1,26 @@
+package caso1;
+
+import java.util.Scanner;
+
+public class UsuarioSimple {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("=== Caso 1: Lectura de datos simples con Scanner ===");
+        System.out.print("Nombre: ");
+        String nombre = sc.nextLine();
+
+        System.out.print("Edad (entero): ");
+        int edad = Integer.parseInt(sc.nextLine().trim());
+
+        System.out.print("Email: ");
+        String email = sc.nextLine();
+
+        System.out.println("\n--- Resumen ---");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad);
+        System.out.println("Email: " + email);
+
+        sc.close();
+    }
+}
