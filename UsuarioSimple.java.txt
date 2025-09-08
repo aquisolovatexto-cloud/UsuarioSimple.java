@@ -25,6 +25,3 @@ public class UsuarioSimple {
     }
 }
 
-
-
-Prueba de que es posible editar
